@@ -1,7 +1,63 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+h1 {
+  font: 100 px Times;
+  text-align:center;
+  color: #000000;
+  background-color:#7FFFD4;
 }
+
+h2 {
+  font: 50 px Times;
+  text-align: justify;
+  border: 4px solid #99FFFF;
+  color: #000000;
+  background-color:#FFFFFF;
+}
+
+body {
+  padding: 40px;
+  font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #FFFFFF
+}
+
+
+.boton1 {
+	margin: 0;
+  	position: absolute;
+  	top: 80%;
+  	left: 47%;
+ 	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #99FFFF; /*color botón*/
+	color: #000000; /*color texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+	align-items: center;
+	justify-content: center;
+   }
+
+
+.boton2 {
+	margin: 0;
+  	position: absolute;
+  	top: 80%;
+  	left: 53%;
+ 	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+	padding: 10px; /*espacio alrededor texto*/
+	background-color: #99FFFF; /*color botón*/
+	color: #000000; /*color texto*/
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 50px; /*bordes redondos*/
+	align-items: center;
+	justify-content: center;
+   }
+
+
 
 a {
   color: #00B7FF;
